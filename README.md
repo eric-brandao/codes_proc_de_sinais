@@ -26,6 +26,20 @@ espectro cruzado, método de Welch, coerência, estimativa da FRF)
 Parte dos exemplos ainda está em construção e eles estarão disponíveis quando estiverem prontos 
 (são passíveis de revisão).
 
+# Criação de ambiente conda:
+
+Com o gerenciador de ambientes conda instalado (via anaconda ou mini-conda), 
+acesse via terminal a pasta onde o arquivo foi baixado e execute o comando a seguir:
+
+conda env create --file environment.yml
+
+O ambiente será criado com o nome dsp (pode ser alterado no momento da criação, alterando o arquivo .yml)
+e todas as bibliotecas necessárias para a execução dos códigos estarão instaladas.
+
+Para acessar o ambiente basta executar o comando, também na linha de comandos:
+
+conda activate dsp
+
 # Signal processing examples
 
 This repository was entirely made using Jupyter Notebooks. They are simple examples built for my 
